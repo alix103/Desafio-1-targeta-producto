@@ -1,1 +1,1 @@
-https://alix103.github.io/Desafio-1-targeta-producto/
+https://alix103.github.io/Desafio-1-tarjeta-producto/
