@@ -74,8 +74,8 @@ section{
 .contenido h4{
     color: var(--color-perfume);
     font-size: var(--tamFuenteParrafo);
-    letter-spacing: .3rem;
-    font-size: .7rem;
+    letter-spacing: .3rem; 
+    font-size: .7rem; 
 }
 
 .contenido h2{
