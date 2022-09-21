@@ -1,0 +1,25 @@
+:root{
+    --background-color: #f5eae3; 
+    --letter-button: #ffffff;
+    --color-boton: #03836b;
+    --color-precio: #008067;
+    --color-nombre: #12181f;
+    --color-perfume: #97999c;
+    --color-texto: #797a83;
+    --color-precio-sub: #898c95;
+    --fuente1: 'Montserrat', sanserif;
+    --fuente2: 'Fraunces', sanserif;
+    --tamFuenteParrafo: 14px;
+
+}
+
+body{
+    background-color: var(--background-color);
+
+}
+
+.container .card img{
+    width: 20rem;
+    height: 30rem;
+}
+
