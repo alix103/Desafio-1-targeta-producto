@@ -38,7 +38,7 @@ section{
     background-color: var(--letter-button);
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.219);
     width: 600px;
-    border-radius: 4px;
+    border-radius: 10px;
     display: flex;
 }
 
@@ -50,6 +50,8 @@ section{
 .imagen img{
     display: block;
     width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .contenido{
@@ -114,8 +116,61 @@ section{
     background-color: var(--boton-hover);
 }
 
-/*.container .card img{
-    width: 20rem;
-    height: 30rem;
-}*/
+
+@media only screen and (max-width: 620px) {
+
+    .container{
+        width: 100%;
+        max-width: 1200px;
+        height: 430px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .container .card{
+        width: 330px;
+        height: 540px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25;
+    }
+
+    .imagen{
+        position: absolute;
+    }
+
+    .contenido{
+        display: block;
+        margin-top: 10rem;
+        text-align: left;
+    }
+
+    .container .card img{
+        width: 330px;
+        height: 190px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .contenido h4{
+        font-size: 15px;
+    }
+
+    .contenido h2{
+        font-size: 30px;
+    }
+
+    .contenido p.text{
+        font-size: 15px;
+    }
+
+    .contenido button{
+        height: 2.5rem;
+    }
+}
 
