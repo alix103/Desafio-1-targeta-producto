@@ -74,6 +74,8 @@ section{
 .contenido h4{
     color: var(--color-perfume);
     font-size: var(--tamFuenteParrafo);
+    letter-spacing: .3rem;
+    font-size: .7rem;
 }
 
 .contenido h2{
@@ -130,8 +132,9 @@ section{
     }
 
     .container .card{
+        justify-content: center;
         width: 330px;
-        height: 540px;
+        height: 550px;
         border-radius: 10px;
         overflow: hidden;
         margin: 20px;
@@ -155,10 +158,6 @@ section{
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         border-bottom-left-radius: 0px;
-    }
-
-    .contenido h4{
-        font-size: 15px;
     }
 
     .contenido h2{
