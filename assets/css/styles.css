@@ -2,6 +2,7 @@
     --background-color: #f5eae3; 
     --letter-button: #ffffff;
     --color-boton: #03836b;
+    --boton-hover: #004132;
     --color-precio: #008067;
     --color-nombre: #12181f;
     --color-perfume: #97999c;
@@ -23,7 +24,7 @@ body{
     /*height: 100vh;
     width: 100vh;*/
     background-color: var(--background-color);
-    font-family: var(--fuente2);
+    /*font-family: var(--fuente2);*/
 }
 
 section{
@@ -36,7 +37,7 @@ section{
 .card{
     background-color: var(--letter-button);
     box-shadow: 0 0 0.9375em rgba(0, 0, 0, 0.219);
-    width: 800px;
+    width: 600px;
     border-radius: 4px;
     display: flex;
 }
@@ -54,6 +55,63 @@ section{
 .contenido{
     flex: 1;
     padding: 35px 35px 25px 35px;
+}
+
+.contenido h4, p, p.subrayado, button{
+    font-family: var(--fuente1);
+}
+
+.contenido h2, p.price{
+    font-family: var(--fuente2);
+}
+
+.contenido h4, h2, p{
+    margin-bottom: 20px;
+}
+
+.contenido h4{
+    color: var(--color-perfume);
+    font-size: var(--tamFuenteParrafo);
+}
+
+.contenido h2{
+    color: var(--color-nombre);
+    font-size: 2.3rem;
+    font-weight: 700;
+    font-family: var(--fuente2);
+    line-height: 2rem;
+}
+
+.contenido .text{
+    color: var(--color-texto);
+    font-size: var(--tamFuenteParrafo);
+}
+
+.contenido .price{
+    color: var(--color-precio);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.contenido .subrayado{
+    color: var(--color-precio-sub);
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+.contenido button{
+    background-color: var(--color-boton);
+    color: var(--letter-button);
+    justify-content: center;
+    border: none;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 5px;
+}
+
+.contenido button:hover{
+    cursor: pointer;
+    background-color: var(--boton-hover);
 }
 
 /*.container .card img{
