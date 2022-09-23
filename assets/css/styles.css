@@ -117,6 +117,18 @@ section{
     background-color: var(--boton-hover);
 }
 
+.attribution{
+    font-size: 15px;
+    margin-top: -30px;
+    text-align: center;
+    color: #000;
+    font-family: var(--fuente1);
+}
+
+.attribution a{
+    color: rgb(52, 52, 240);
+}
+
 
 @media only screen and (max-width: 620px) {
 
@@ -171,5 +183,10 @@ section{
     .contenido button{
         height: 2.5rem;
     }
+    
+    .attribution{
+    margin-top: 10rem;
+    }
 }
+
 
